@@ -14,7 +14,7 @@ import lombok.ToString;
 @Data
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Symbol {
+public class Symbols {
 
   @JsonProperty("reward_multiplier")
   private double rewardMultiplier;

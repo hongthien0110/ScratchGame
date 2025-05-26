@@ -15,7 +15,7 @@ import lombok.ToString;
 @Data
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class WinCombination {
+public class WinCombinations {
 
   @JsonProperty("reward_multiplier")
   private double rewardMultiplier;

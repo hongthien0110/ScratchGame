@@ -8,8 +8,8 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.limix.symboltypes.BonusSymbol;
-import org.limix.symboltypes.StandardSymbol;
+import org.limix.symboltypes.BonusSymbols;
+import org.limix.symboltypes.StandardSymbols;
 
 @EqualsAndHashCode
 @AllArgsConstructor
@@ -17,12 +17,12 @@ import org.limix.symboltypes.StandardSymbol;
 @Data
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Probability {
+public class Probabilities {
 
   @JsonProperty("standard_symbols")
-  private List<StandardSymbol> standardSymbols;
+  private List<StandardSymbols> standardSymbols;
 
   @JsonProperty("bonus_symbols")
-  private BonusSymbol bonusSymbol;
+  private BonusSymbols bonusSymbols;
 
 }

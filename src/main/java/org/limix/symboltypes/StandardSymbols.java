@@ -14,7 +14,7 @@ import lombok.ToString;
 @Data
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class StandardSymbol {
+public class StandardSymbols {
   private int row;
   private int column;
   private Map<String, Integer> symbols;

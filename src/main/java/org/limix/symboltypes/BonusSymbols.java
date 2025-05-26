@@ -14,6 +14,6 @@ import lombok.ToString;
 @Data
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class BonusSymbol {
+public class BonusSymbols {
   private Map<String, Integer> symbols;
 }
